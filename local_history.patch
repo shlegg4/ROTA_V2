@@ -1,0 +1,60 @@
+Index: ConstraintSolverTest/CSP.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ConstraintSolverTest/CSP.cs b/ConstraintSolverTest/CSP.cs
+--- a/ConstraintSolverTest/CSP.cs	
++++ b/ConstraintSolverTest/CSP.cs	(date 1694271912345)
+@@ -3,7 +3,7 @@
+ public class CSP
+ {
+     public List<Variable> Variables = new();
+-    public Dictionary<string, List<Arc>> Arcs = new();
++    public List<Arc> Arcs = new();
+     public float Cost = 0;
+ 
+ 
+@@ -14,14 +14,12 @@
+ 
+     public void AddArc(Arc arc)
+     {
+-        if(!Arcs.ContainsKey(arc.X.Name))
+-            Arcs.Add(arc.X.Name, new List<Arc>());
+-        Arcs[arc.X.Name].Add(arc);
++        Arcs.Add(arc);
+     }
+ 
+-    public void ArcConsistent(string key)
++    public void ArcConsistent()
+     {
+-        var worklist = new Queue<Arc>(Arcs.SelectMany(x => x.Value));
++        var worklist = new Queue<Arc>(Arcs);
+ 
+         while (worklist.Count > 0)
+         {
+@@ -33,15 +31,13 @@
+             {
+                 throw new Exception("Domain wipeout");
+             }
+-            else
+-            {
+-                    foreach (var arc1 in Arcs[arc.X.Name])
+-                    {
+-                        if (arc1.Y.Name == arc.Y.Name) continue;
+-                        worklist.Enqueue(arc1);
+-                    }
+-                    
+-            }
+-        }
++
++            worklist.Enqueue(arc);
++        }
++    }
++
++    public void Search()
++    {
++        
+     }
+ }
+\ No newline at end of file

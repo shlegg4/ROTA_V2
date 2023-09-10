@@ -1,0 +1,15 @@
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/bin/Debug/net7.0/ConstraintSolverTest
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/bin/Debug/net7.0/ConstraintSolverTest.deps.json
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/bin/Debug/net7.0/ConstraintSolverTest.runtimeconfig.json
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/bin/Debug/net7.0/ConstraintSolverTest.dll
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/bin/Debug/net7.0/ConstraintSolverTest.pdb
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/ConstraintSolverTest.csproj.AssemblyReference.cache
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/ConstraintSolverTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/ConstraintSolverTest.AssemblyInfoInputs.cache
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/ConstraintSolverTest.AssemblyInfo.cs
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/ConstraintSolverTest.csproj.CoreCompileInputs.cache
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/ConstraintSolverTest.dll
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/refint/ConstraintSolverTest.dll
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/ConstraintSolverTest.pdb
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/ConstraintSolverTest.genruntimeconfig.cache
+/Users/samuellegg/RiderProjects/ConstraintSolverTest/ConstraintSolverTest/obj/Debug/net7.0/ref/ConstraintSolverTest.dll
